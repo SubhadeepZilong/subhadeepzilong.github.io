@@ -18,7 +18,7 @@ body {
 }
 header  {
     background: var(--dark);
-    height: 800px;
+    clip-path: polygon(0 0,100% 0,100% 100%, 70% 88% ,0 100%);
 }
 
 .container{
@@ -44,4 +44,35 @@ header nav {
 
 header nav .branding{
     margin-right: 3rem;
+}
+.me{
+    padding-top: -1rem;
+    padding-bottom: 2rem;
+}
+.me .left img{
+    width: 500px;
+}
+.container .left .branding img{
+    width: 100px;
+}
+.me .right{
+    color: var(--pure);
+}
+.me .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.me .right h1{
+    font-size: 3.8rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.me .right h1 span{
+    color: var(--primary);
+}
+.me .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
 }

@@ -2,10 +2,11 @@
 
 :root{
     --primary:#3DCFD3;
-    --ternary:#898989;
+    --ternary:#717171;
     --dark:#161616;
     --pure:#FFFFFF;
-    --light:#F2F2F2;
+    --light:#d2d2d2;
+    --secondary:#070606;
 }
 body {
     font-family: 'Poppins',sans-serif;
@@ -33,6 +34,8 @@ header nav .left a{
     margin-right: 2rem;
     text-transform: uppercase;
     transition: all .3s ease;
+    font-family: 'Ubuntu-Mono';
+    
 }
 header nav .left a:hover{
     color: var(--primary);
@@ -74,5 +77,114 @@ header nav .branding{
 }
 .me .right p{
     line-height: 1.9;
+    margin-bottom: 2rem;    
+}
+.about .container img{
+    width: 300px;
+}
+.about .container h3 img{
+    width: 30px;
+}
+section{
+    padding: 6rem 0;
+}
+.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.about h1 span{
+    color: var(--primary);
+}
+section.about .container .social{
+    display: flex;
+}
+section.about .container .social a{
+    display: flex;
+    
+}
+section.about .container .social svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 0.7rem;
+    transition: all .3s ease;
+}
+section.about .container .social svg:hover{
+    fill: var(--primary);
+}
+section.about p span{
+    color: var(--primary);
+}
+.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.about p{
+    font-family: 'Ubuntu-Mono';
+    color: var(--ternary);
+    line-height: 1.8;
     margin-bottom: 2rem;
 }
+.heading{
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+.heading span{
+    color: var(--primary);
+}
+.heading + p{
+    color: var(--ternary);
+    font-family: 'Ubuntu-Mono';
+    margin-bottom: 6rem;
+    text-align: center;
+}
+section.work{
+    background: var(--light);
+}
+section.work .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 6rem;
+    grid-row-gap: 6rem;
+}
+section.work .card-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+section.work .card-wrapper .card svg{
+    position: absolute;
+    top: -3.5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section.work .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+section.work .card-wrapper .card p{
+    font-family: 'Ubuntu-Mono';
+    color: var(--ternary);
+    line-height: 1.6;
+}
+section.work .card-wrapper .card:hover{
+    background: var(--dark);
+}
+section.work .card-wrapper .card:hover svg{
+    fill: var(--primary);
+}
+section.work .card-wrapper .card:hover h2, section.work .card-wrapper .card:hover p{
+    color: var(--pure);
+}
+

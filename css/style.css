@@ -253,13 +253,18 @@ section.contact .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 3rem;
-
+}
+section.contact{
+    margin-top: -3rem;
+}
+section.contact .contact-me{
+    margin-bottom: 2rem;
 }
 section.contact .card-wrapper .card{
     text-align: center;
 }
 section.contact .card-wrapper .card svg{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 section.contact .card-wrapper .card h2{
     font-weight: 400;
@@ -269,4 +274,58 @@ section.contact .card-wrapper .card h6{
     font-size: 1rem;
     color: var(--ternary);
     font-weight: 400;
+    margin-bottom: 4rem;
+}
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+}
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+section.contact .input-wrap-2 input{
+    margin-bottom: 2rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact .input-wrap-2 textarea{
+    padding: 0.5rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact input{
+    padding: 0.5rem;
+    border: 1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact .btn-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+footer {
+    background: var(--dark);
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: -8rem;
+}
+footer .top h1{
+    margin-bottom: 1.3rem;
+    color: var(--light);
+}
+footer .top img{
+    margin-bottom: 0.8rem;
+}
+footer .footer-socials svg{
+    margin-bottom: 1rem;
+    margin-right: 0.1rem;
+}
+footer .footer-socials svg:hover{
+    fill: var(--primary);
+}
+
+footer .copyright{
+    color: var(--light);
 }

@@ -43,13 +43,16 @@ header nav .left a{
 header nav .left a:hover{
     color: var(--primary);
 }
-
+header .top-nav{
+    margin-bottom: -3rem;
+}
 header nav {
     padding: 2rem 0;
 }
 
 header nav .branding{
     margin-right: 3rem;
+    
 }
 .me{
     padding-top: -1rem;
@@ -193,7 +196,6 @@ section.work .card-wrapper .card:hover h2, section.work .card-wrapper .card:hove
 section.recent .slider .slide svg{
     width: 100px;
     height: 100px;
-    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 2rem;
 }
@@ -226,7 +228,7 @@ section.recent .heading-1 span{
 section.recent .heading-1 + p{
     color: var(--pure);
     font-family: 'Ubuntu-Mono';
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 section.recent .slider-dots{

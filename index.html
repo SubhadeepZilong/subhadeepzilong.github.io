@@ -15,7 +15,7 @@
 <body>
     <div class="site-main-wrapper">
         <button class="hamburger">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ffffff" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>    
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#3DCFD3" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>    
         </button>
         <div class="mobile-nav">
             
@@ -23,13 +23,14 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ffffff" class="bi bi-x" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg>
             </button>
             <ul>
-                <li><a href="#top-me">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>                        
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Achievements</a></li>
                 <li><a href="#">Pet</a></li>
                 <li><a href="#">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
                 </li>
             </ul>
         </div>
@@ -41,7 +42,7 @@
                             <img src="./images/icon.png" alt="SC">
                         </div>
                         <div>
-                            <a href="#top-me">Home</a>
+                            <a href="#">Home</a>
                             <a href="#about">About</a>                        
                             <a href="#projects">Projects</a>
                             <a href="#">Skills</a>
@@ -51,7 +52,7 @@
                         </div>
                     </div>
                     <div class="right">
-                            <button class="btn btn-primary">Let's Talk</button>
+                        <a href="#contact"><button id="lets-talk" title="Contact Me" class="btn btn-primary">Let's Talk</button></a>
                     </div>
                 </nav>
                 <div id = "top-me" class="me flex items-center justify-between">
@@ -63,7 +64,7 @@
                         <h1>I'm an Aspiring <span>Full Stack Developer</span></h1>
                         <p>I'm an Aspiring Full Stack Developer and Computer Science Engineer Student based in India.</p>
                         <div>
-                            <button class="btn btn-secondary">Download CV</button>
+                            <a href="./images/MyResume.pdf" download><button title="Download CV" class="btn btn-secondary">Download CV</button></a>
                         </div>
                     </div>
     
@@ -169,7 +170,7 @@
                 <div class="slider-dots"></div>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="container">
                 <h1 class="heading contact-me">Contact <span>Me</span></h1>
                 <div class="card-wrapper">
@@ -228,7 +229,12 @@
             </footer>
         </section>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button id="myBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+            <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+          </svg>
+    </button>
 
 
 

@@ -272,6 +272,9 @@ section.contact .card-wrapper .card{
 section.contact .card-wrapper a{
     text-decoration: none;
 }
+section.contact .card-wrapper h2, h6{
+    color: var(--dark);
+}
 
 section.contact .card-wrapper .card svg{
     margin-bottom: 1rem;
@@ -542,6 +545,9 @@ footer .copyright{
     }
     section.contact .input-wrap-2 input{
         margin-bottom: 0.5rem;
+        font-size: 0.6rem;
+    }
+    section.contact .input-wrap-2 textarea{
         font-size: 0.6rem;
     }
     section.contact input{

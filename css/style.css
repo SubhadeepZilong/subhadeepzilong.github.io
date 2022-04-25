@@ -359,10 +359,11 @@ footer .copyright{
     z-index: 1001;
     background: #000000d0;
     color: white;
-    width: 18%;
+    width: 30%;
     height: 100%;
-    padding: 2rem;
+    padding: 1rem;
     padding-top: 10rem;
+    padding-right: 1rem;
     transition: all .5s ease-in-out;
     transform: translateX(100%);
 }
@@ -403,7 +404,7 @@ footer .copyright{
 .site-main-wrapper .mobile-nav ul li a{
     color: var(--secondary);
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color:var(--pure);
 }
@@ -412,4 +413,87 @@ footer .copyright{
     font-size: 2.5rem;    
     text-align: right;
     font-family: 'Ubuntu-Mono';
+}
+
+@media only screen and (max-width:900px){
+    header {
+        padding-top: 4rem;
+    }
+    header .left img{
+        width: 300px !important;
+        padding-right: 2rem;
+    }
+    .me .right h1{
+        font-size: 2.3rem;
+    }
+    .me .right h6{
+        font-size: 1.2rem;
+    }
+    .me .right p{
+        font-size: 0.8rem;
+    }
+    .me .right{
+        padding-bottom: 10rem;
+    }
+    .about .container img{
+        width: 150px !important; 
+        padding-bottom: 1rem;
+        
+    }
+    .about h1{
+        margin-bottom: 1rem;
+        margin-top: -4rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .about h3{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        padding-left: 0.7rem;
+    }
+    .about .container h3 img{
+        width: 20px !important;
+    }
+    .about p{
+        line-height: 1.0;
+        margin-bottom: 2rem;
+        padding-left: 0.7rem;
+    }
+    section.about .container .social svg{
+        padding-left: 0.1rem;
+    }
+    .work{
+        margin-top: -3rem;
+    }
+    section.work .container h1{
+        margin-top: -2rem;
+    }
+    section.work .container .card-wrapper .card{
+        line-height: 1.0;
+
+    }
+    section.work .container .card-wrapper .card p{
+        font-size: 11px;
+    }
+    section.work .container .card-wrapper{
+        padding: 1rem 0;
+        margin-top: -2rem;  
+        margin-bottom: -3rem;      
+    }
+    section.work .card-wrapper{
+        grid-column-gap: 2rem;
+        grid-row-gap: 4rem;
+    }
+    section.contact .card-wrapper .card svg{
+        width: 50px;
+        height: 50px;
+    }
+    section.contact .card-wrapper .card h2{
+        font-size: 1rem;
+    }
+    section.contact .card-wrapper .card h6{
+        font-size: 0.7rem;
+    }
+    
 }

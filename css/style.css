@@ -420,25 +420,31 @@ footer .copyright{
         padding-top: 4rem;
     }
     header .left img{
-        width: 300px !important;
+        width: 230px !important;
         padding-right: 2rem;
     }
     .me .right h1{
-        font-size: 2.3rem;
+        font-size: 2.0rem;
     }
     .me .right h6{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     .me .right p{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
     .me .right{
         padding-bottom: 10rem;
     }
     .about .container img{
-        width: 150px !important; 
+        width: 100px !important; 
         padding-bottom: 1rem;
         
+    }
+    .about{
+        margin-right: 6rem;
+    }
+    .contact{
+        margin-right: 1rem;
     }
     .about h1{
         margin-bottom: 1rem;
@@ -454,14 +460,18 @@ footer .copyright{
     }
     .about .container h3 img{
         width: 20px !important;
+        
     }
     .about p{
         line-height: 1.0;
         margin-bottom: 2rem;
+        font-size: 11px;
         padding-left: 0.7rem;
     }
     section.about .container .social svg{
         padding-left: 0.1rem;
+        width: 15px;
+        height: 15px;
     }
     .work{
         margin-top: -3rem;
@@ -471,29 +481,59 @@ footer .copyright{
     }
     section.work .container .card-wrapper .card{
         line-height: 1.0;
-
+        padding-top: 3rem;
+        padding-bottom: -1rem;
+        
+    }
+    section.work .container .card-wrapper .card svg{
+        width: 40px;
     }
     section.work .container .card-wrapper .card p{
-        font-size: 11px;
+        font-size: 0px;
     }
     section.work .container .card-wrapper{
-        padding: 1rem 0;
+        padding: 1rem 0.5rem;
         margin-top: -2rem;  
-        margin-bottom: -3rem;      
+        margin-bottom: -3rem;  
+        margin-left: -1rem;    
+        margin-right: -1rem; 
     }
     section.work .card-wrapper{
-        grid-column-gap: 2rem;
+        grid-column-gap: 0.4rem;
         grid-row-gap: 4rem;
     }
     section.contact .card-wrapper .card svg{
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
+    }
+    section.contact .card-wrapper .card{
+        padding: 10 10 !important;
     }
     section.contact .card-wrapper .card h2{
-        font-size: 1rem;
+        font-size: 0.8rem;        
     }
     section.contact .card-wrapper .card h6{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        margin-bottom: 2.5rem;
+    }
+    section.contact .input-wrap{
+        grid-gap: 0.5rem;
+        margin-bottom: 0.5rem;
+              
+    }
+    section.contact .input-wrap-2{
+        grid-gap: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    section.contact .input-wrap-2 input{
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+    section.recent .slide p{
+        font-size: 11px;
+    }
+    section.recent .slider .slide{
+        padding: 0 2rem;
     }
     
 }

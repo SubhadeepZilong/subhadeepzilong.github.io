@@ -187,6 +187,9 @@ section.work .card-wrapper .card p{
 section.work .card-wrapper .card:hover{
     background: var(--dark);
 }
+section.work .card-wrapper .card a{
+    text-decoration: none;
+}
 section.work .card-wrapper .card:hover svg{
     fill: var(--primary);
 }

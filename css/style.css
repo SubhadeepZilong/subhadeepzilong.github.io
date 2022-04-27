@@ -190,6 +190,7 @@ section.work .card-wrapper .card:hover{
 section.work .card-wrapper .card a{
     text-decoration: none;
 }
+
 section.work .card-wrapper .card:hover svg{
     fill: var(--primary);
 }

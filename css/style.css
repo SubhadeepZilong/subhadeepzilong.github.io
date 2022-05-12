@@ -175,9 +175,10 @@ section.work .card-wrapper .card svg{
     transform: translateX(-50%);
 }
 section.work .card-wrapper .card h2{
-    font-weight: 400;
+    font-weight: 900;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+    color: var(--primary);
 }
 section.work .card-wrapper .card p{
     font-family: 'Ubuntu-Mono';
@@ -371,7 +372,7 @@ footer .copyright{
     z-index: 1001;
     background: #000000d0;
     color: white;
-    width: 30%;
+    width: 20%; 
     height: 100%;
     padding: 1rem;
     padding-top: 10rem;
@@ -431,6 +432,170 @@ footer .copyright{
     text-align: right;
     font-family: 'Ubuntu-Mono';
 }
+
+section.achievements .autoplay .slide2 svg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+section.achievements .autoplay .slide2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+section.achievements .autoplay .slide2 p{
+    font-family: 'Ubuntu-Mono';
+    margin-bottom: 1rem;
+    color: var(--light);
+}
+section.achievements .slide2 h1{
+    color: var(--primary);
+}
+section.achievements .heading-1{
+    color: var(--pure);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+section.achievements .heading-1 span{
+    color: var(--primary);
+}
+section.achievements .heading-1 + p{
+    color: var(--pure);
+    font-family: 'Ubuntu-Mono';
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section.achievements {
+    background: var(--dark);
+    clip-path: polygon(0 0,100% 0,100% 100%, 70% 88% ,0 100%);
+    padding-bottom: 10rem;
+}
+
+
+
+
+
+
+
+
+@import "bourbon";
+ @import "neat";
+ *, *:before, *:after {
+	 box-sizing: border-box;
+	 outline: none;
+}
+ figure {
+	 position: relative;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 width: 375px;
+	 height: 467px;
+	 border-radius: 10px;
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	 transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	 overflow: hidden;
+}
+ figure:hover {
+	 box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+ figure:hover img {
+	 transform: scale(1.25);
+}
+ figure:hover figcaption {
+	 bottom: 0;
+}
+ figure h1 {
+	 position: absolute;
+	 top: 70px;
+	 left: 20px;
+	 margin: 0;
+	 padding: 0;
+	 color: white;
+	 font-size: 50px;
+	 font-weight: 100;
+	 line-height: 1;
+}
+ figure img {
+	 height: 100%;
+	 transition: 0.25s;
+}
+ figure figcaption {
+	 position: absolute;
+	 bottom: -25%;
+	 left: 0;
+	 width: 100%;
+	 margin: 0;
+	 padding: 30px;
+	 background-color: rgba(0, 0, 0, 0.85);
+	 box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	 color: white;
+	 line-height: 1;
+	 transition: 0.25s;
+}
+ figure figcaption h3 {
+	 margin: 0 0 20px;
+	 padding: 0;
+}
+ figure figcaption p {
+	 font-size: 14px;
+	 line-height: 1.75;
+}
+
+.skillbox{
+    background-color: var(--primary);
+    width: 150px;
+    border: 1px solid var(--ternary);
+    padding: 16px;
+    margin: 25px;
+    border-radius: 100px;
+    Text-align: center;
+}
+.container2{
+    display: flex;    
+    align-items: center;
+}
+section.skills .container h1{
+    margin-bottom: 100px;
+}
+section.skills .container-header h2{
+    margin-left: 50px;
+}
+section.skills .container-header h3{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 @media only screen and (max-width:900px){
     header {
@@ -573,5 +738,9 @@ footer .copyright{
         margin-bottom: 1rem;
         margin-right: 0.1rem;
         width: 15px;
-    }
+    }    
+
+    
+    
+    
 }

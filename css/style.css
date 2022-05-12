@@ -566,9 +566,6 @@ section.skills .container h1{
 section.skills .container-header h2{
     margin-left: 50px;
 }
-section.skills .container-header h3{
-    
-}
 
 
 
@@ -740,6 +737,28 @@ section.skills .container-header h3{
         width: 15px;
     }    
 
+    .skillbox{
+        background-color: var(--primary);
+        width: 95px;
+        border: 1px solid var(--ternary);
+        padding: 16px;
+        margin: 2px;
+        border-radius: 100px;
+        Text-align: center;
+    }
+    .container2{
+        display: flex;    
+        align-items: center;
+    }
+    section.skills .container h1{
+        margin-bottom: 10px;
+    }
+    section.skills .container-header h2{
+        margin-left: 10px;
+    }
+    section.skills .container-header h3{
+        font-size: 0.7rem;
+    }
     
     
     

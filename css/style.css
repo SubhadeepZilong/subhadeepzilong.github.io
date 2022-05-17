@@ -476,13 +476,6 @@ section.achievements {
     padding-bottom: 10rem;
 }
 
-
-
-
-
-
-
-
 @import "bourbon";
  @import "neat";
  *, *:before, *:after {
@@ -551,8 +544,8 @@ section.achievements {
     background-color: var(--primary);
     width: 150px;
     border: 1px solid var(--ternary);
-    padding: 16px;
-    margin: 25px;
+    padding: 5px 1px;
+    margin: 8px;    
     border-radius: 100px;
     Text-align: center;
 }
@@ -566,33 +559,6 @@ section.skills .container h1{
 section.skills .container-header h2{
     margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 @media only screen and (max-width:900px){
     header {
@@ -739,9 +705,9 @@ section.skills .container-header h2{
 
     .skillbox{
         background-color: var(--primary);
-        width: 95px;
+        width: 50px;
         border: 1px solid var(--ternary);
-        padding: 16px;
+        padding: 10px 1px;
         margin: 2px;
         border-radius: 100px;
         Text-align: center;
@@ -755,11 +721,34 @@ section.skills .container-header h2{
     }
     section.skills .container-header h2{
         margin-left: 10px;
+        font-size: 1rem;
+        
     }
     section.skills .container-header h3{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
+    }
+    .image-block h1{
+        font-size: 1rem;
+    }
+    .container{
+        max-width: 300px;
+        padding: 0 1px;
+        margin: 0 10px;
     }
     
-    
+    section.achievements .autoplay .slide2{
+        padding: 0 1rem;
+    }
+    section.achievements .autoplay .slide2 p{
+        margin-bottom: 1rem;
+    }
+    section.achievements .slide2 h1{
+        color: var(--primary);
+        margin-left: 40px;
+    }
+    .slide2 .img{
+        width: 300px;
+        height: 300px;
+    }
     
 }
